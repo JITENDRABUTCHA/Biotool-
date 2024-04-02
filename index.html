@@ -3,181 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Instagram</title>
+  <title>Bio Tool - Login</title>
+  <link rel="stylesheet" href="styles.css" href="backend/script.js" href="backend/server.js">
   
-  <style>
-    body {
-      background-color: transparent;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: transparent;
-      border-bottom: 1px solid #ccc;
-      padding: 10px 0;
-      text-align: center;
-      
-    }
-
-    header img {
-      width: 100px;
-    }
-    .logo1{
-      width: 250px;
-    }
-
-
-    .container {
-      
-      margin-left: 500px;
-      max-width: 500px;
-      margin-top: 50px;
-      display: inline-block;
-      width: 500px;
-      height: 650px;
-      border: 1px solid red;
-      
-    }
-    .container1 {
-      
-      margin-left: 0px;
-      max-width: 500px;
-      margin-top: 50px;
-      display: inline-block;
-      width: 500px;
-      height: 650px;
-      border: 1px solid red;
-    }
-    .container2 {
-      
-      margin-left: 0px;
-      max-width: 500px;
-      margin-top: 50px;
-      display: inline-block;
-      width: 500px;
-      height: 650px;
-      border: 1px solid red;
-    }
-    
-    .post {
-      margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .post-header {
-      padding: 10px;
-      display: flex;
-      align-items: center;
-    }
-
-    .avatar {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-
-    .username {
-      font-weight: bold;
-      text-decoration: underline;
-    }
-
-    .post-image {
-      width: 300px;
-      margin-left: 100px;
-      
-    }
-
-    .post-actions {
-      padding: 10px;
-
-    }
-    .likeb:hover{
-      background-color: red;
-    }
-   
-
-  
-
-    .post-actions button {
-      background-color: transparent;
-      border-color: black;
-      cursor: pointer;
-    }
-
-    .post-actions button img {
-      width: 20px;
-    }
-    .upload1{
-      border-radius: 2px;
-    }
-  </style>
 </head>
 <body>
-  <header>
-    <img src="instagram-golden-logo-icon-with-name_539007-141.avif" alt="Instagram Logo" class="logo1">
-  </header>
-  <div style="
-  background-color: transparent;
-  
-  border: 1px solid #ccc;
-  width: 100px;
-  height: 350px;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  position: fixed;">
-<div style="
-background-color: transparent;
-margin-bottom: 30px;
-width: 60px;
-"><img src="home.svg" class="upload1">
-</div>
-<div style="
-background-color: transparent;
-margin-bottom: 30px;
-width: 60px;">
- <img src="search.svg" class="upload2"></div>
-<div style="
-background-color: transparent;
-margin-bottom: 30px;
-width: 60px;">
-<img src="upload.svg" class="upload3"></div>
-<div style="
-background-color: transparent;
-margin-bottom: 30px;
-width: 60px;">
-<img src="explore.svg" class="upload4"></div>
-
-</div>
-
-
-<div class="container">
-  <div class="post">
-    <div class="post-header">
-      <img class="avatar" src="WhatsApp Image 2024-02-17 at 22.42.23_dfd2f29f.jpg" alt="User Avatar">
-      <div class="username">BUTCHA_JITENDRA@16</div>
-    </div>
-      <img class="post-image" src="adjustable-spring-hand-exerciser-finger-exerciser-hand-grip-original-imagg8phpmjazvgj.webp" alt="Post Image">
-      <div class="post-actions">
-        <button>❤️</button>
-        <button><img src="download (1).png" alt="Comment"></button>
-        <button><img src="download (2).png" alt="Share"></button>
-        
-      </div>
-      <p class="para">
-        @flipkart products for gym users Shop for Rs 999/- & more from Drools & get a chance to meet Rakul Preet Singh!
-        Upto 20% Off.. 
-      </p>
-      <a href="https://www.flipkart.com/adonyx-adjustable-spring-hand-finger-exerciser-strengthener-grip-fitness-grip/p/itmcb9807bc68c76?pid=FGPGG8PH65P438FU&lid=LSTFGPGG8PH65P438FUCCOAG1&marketplace=FLIPKART&store=qoc%2Facb&spotlightTagId=BestsellerId_qoc%2Facb&srno=b_1_3&otracker=browse&fm=organic&iid=6a0eeaef-4339-4d3a-b009-2449b40e3f6e.FGPGG8PH65P438FU.SEARCH&ppt=None&ppn=None&ssid=iraj1a4u740000001710779726052">link</a>
-      <p class="para2">#droolsindia #petparents #petfood #rakulpreet #flipkart</p>   
-     </div>
- 
-             </div>
-        
-         
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      <p id="error-message" class="error-message"></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

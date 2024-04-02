@@ -1,73 +1,45 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #dbdbdb;
-  padding: 20px 0;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
 }
 
-header .logo {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #000000;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-header input[type="text"] {
-  width: 200px;
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #dbdbdb;
-  margin: 0 10px;
-}
-
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
+nav ul li {
   display: inline;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
-header nav ul li a {
+nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: #000000;
 }
 
 main {
-  padding: 20px 0;
+  padding: 20px;
 }
 
-.post {
-  margin-bottom: 20px;
+section {
+  margin-bottom: 30px;
 }
 
-.post img {
-  max-width: 100%;
-}
-
-.post-details h2 {
-  margin-top: 10px;
+h2 {
+  color: #007bff;
 }
 
 footer {
-  background-color: #ffffff;
-  border-top: 1px solid #dbdbdb;
-  padding: 20px 0;
+  background-color: #f4f4f4;
   text-align: center;
+  padding: 10px;
 }
